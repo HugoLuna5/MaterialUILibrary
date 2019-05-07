@@ -20,7 +20,7 @@ public class MaterialUIDemo {
         }
 
         // basic instantiation of JFrame with various components, including a
-        // JMenuBar with some menus and items, as well as a button
+        // JMenuBar with some menus and items, as well as a boton
         final JFrame frame = new JFrame ("Material Design UI for Swing by atharva washimkar");
         frame.setMinimumSize (new Dimension(600, 400));
 
@@ -74,18 +74,18 @@ public class MaterialUIDemo {
         MaterialUIMovimiento.add (button, ColoresMaterial.LIGHT_BLUE_500, 5, 1000 / 30);
 
         // other components
-        content.add (new JCheckBox ("checkbox"));
+        content.add (new JCheckBox ("caja"));
         content.add (new JComboBox<String> (new String[]{"a", "b", "c"}));
-        content.add (new JLabel ("label"));
-        content.add (new JPasswordField ("password"));
-        content.add (new JRadioButton ("radio button"));
+        content.add (new JLabel ("etiqueta"));
+        content.add (new JPasswordField ("contrasena"));
+        content.add (new JRadioButton ("radio boton"));
         content.add (new JSlider (JSlider.HORIZONTAL, 0, 5, 2));
         content.add (new JSpinner (new SpinnerListModel (new String[]{"d", "e", "f"})));
         content.add (new JTable (new String[][]{{"a", "b", "c"}, {"d", "e", "f"}}, new String[]{"r", "e"}));
         content.add (new JTextField ("text field"));
         content.add (new JToggleButton ("toggle"));
 
-        JToolBar tb = new JToolBar ("toolbar");
+        JToolBar tb = new JToolBar ("barradeherramientas");
         JButton button1 = new JButton ("f");
         JButton button2 = new JButton ("e");
         button1.setBackground (ColoresMaterial.LIGHT_BLUE_400);
